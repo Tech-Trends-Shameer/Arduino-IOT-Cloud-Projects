@@ -1,0 +1,22 @@
+{
+  "cpu": {
+    "fqbn": "esp32:esp32:esp32:CPUFreq=240,DebugLevel=none,EraseFlash=none,EventsCore=1,FlashFreq=80,FlashMode=qio,FlashSize=4M,LoopCore=1,PSRAM=disabled,PartitionScheme=default,UploadSpeed=921600",
+    "name": "ESP32 Dev Module",
+    "type": "serial"
+  },
+  "secrets": [
+    {
+      "name": "SECRET_DEVICE_KEY",
+      "value": ""
+    },
+    {
+      "name": "SECRET_OPTIONAL_PASS",
+      "value": ""
+    },
+    {
+      "name": "SECRET_SSID",
+      "value": ""
+    }
+  ],
+  "included_libs": []
+}
